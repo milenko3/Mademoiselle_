@@ -3,5 +3,24 @@ img{
 }
 
 body{
+    font-family: $lato;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $lato;
+    font-weight: 400;
+}
+
+.section-title{
     font-family: $bodoni;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 5rem;
+}
+p{
+    line-height: 2.6rem;
 }
